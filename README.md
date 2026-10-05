@@ -14,17 +14,17 @@ Les données proviennent de la Base de Données Publique des Médicaments
 |---------|--------|--------|--------------|
 | [v1-c](./v1-c) | C | Terminé | Version en ligne de commande, pratique de la Programmation Système |
 | v2-java | Java | Terminé | Réécriture orientée objet, pratique POO2 |
-| v3-web | HTML/CSS + Java | 🚧 À venir | Interface web par-dessus le backend Java |
+| v3-web | HTML/CSS + Java | Terminé | Interface web par-dessus le backend Java |
 
 Chaque dossier contient son propre README avec les détails techniques 
 spécifiques à cette version.
 
 ## Auteur
-Anfal Bensaou — étudiante ingénieure, Polytech Nice Sophia (Systèmes Informatiques)
+Anfal Bensaou — étudiante ingénieure, Polytech Nice Sophia (Sciences Informatiques)
 
 ---
 
-## 🇬🇧 English
+## English
 
 **MedRembourse** is a progressive multi-language project built to practice 
 different technologies (C, Java, HTML/CSS) while solving a real everyday 
@@ -39,8 +39,8 @@ see the [official link](https://base-donnees-publique.medicaments.gouv.fr).
 | Version | Tech | Status | Description |
 |---------|------|--------|--------------|
 | [v1-c](./v1-c) | C | Done | Command-line version, practicing systems programming |
-| v2-java | Java | 🚧 Upcoming | Object-oriented rewrite |
-| v3-web | HTML/CSS + Java | 🚧 Upcoming | Web interface on top of the Java backend |
+| v2-java | Java | Done | Object-oriented rewrite |
+| v3-web | HTML/CSS + Java | Done | Web interface on top of the Java backend |
 
 Each folder contains its own README with technical details specific to that version.
 
