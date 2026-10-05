@@ -35,11 +35,11 @@ java Main
 ```
 
 ## Auteur
-Anfal Bensaou — étudiante ingénieure, Polytech Nice Sophia (Systèmes Informatiques)
+Anfal Bensaou — étudiante ingénieure, Polytech Nice Sophia (Sciences Informatiques)
 
 ---
 
-## 🇬🇧 English
+## English
 
 Object-oriented rewrite of the C version, practicing encapsulation, 
 composition, inheritance and generics — reusing the same BDPM datasets 
