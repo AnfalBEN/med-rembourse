@@ -11,7 +11,8 @@ public class Serveur {
         mdr.chargerDepuisFichier("CIS_bdpm_utf8.txt");
         pr.chargerDepuisFichier("CIS_CIP_bdpm.txt");
 
-        HttpServer serveur = HttpServer.create(new InetSocketAddress(8080), 0);
+        int port = Integer.parseInt(System.getenv().getOrDefault("PORT", "8080"));
+        HttpServer serveur = HttpServer.create(new InetSocketAddress(port), 0);
 
         serveur.createContext("/recherche", (exchange) -> {
             exchange.getResponseHeaders().add("Access-Control-Allow-Origin", "*");
