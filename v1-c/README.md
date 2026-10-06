@@ -46,7 +46,7 @@ gcc main.c -o med-rembourse
 ```
 
 ## Auteur
-Anfal Bensaou — étudiante ingénieure, Polytech Nice Sophia (Systèmes Informatiques)
+Anfal Bensaou — étudiante ingénieure, Polytech Nice Sophia (Sciences Informatiques)
 
 ---
 
