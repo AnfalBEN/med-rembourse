@@ -1,0 +1,95 @@
+:root {
+    --bleu-nuit: #0F172A;
+    --blanc-lavande: #F8F7FF;
+    --violet: #6C5CE7;
+    --vert-menthe: #00D9A5;
+    --corail: #FF6B6B;
+    --lavande-pale: #E4E1F5;
+    --gris: #64748B;
+}
+
+body{
+    font-family: 'Sora', sans-serif;
+}
+
+
+.header {
+    background-color: var(--bleu-nuit);
+    color: var(--blanc-lavande); 
+    padding: 20px;
+}
+
+.search {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+    margin: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.card__status {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: var(--vert-menthe);
+    flex-shrink: 0;
+}
+
+.search input {
+    border-radius: 30px;
+    background-color: var(--lavande-pale);
+    padding: 12px 20px;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+.search input:focus { 
+    border-color: var(--violet); 
+}
+
+.search button{
+    background-color: var(--violet);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.card__nom {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.card__forme {
+    color: var(--gris);
+    font-size: 0.9rem;
+}
+
+.card__taux{
+    background-color: var(--vert-menthe);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.status--vert{ background-color: var(--vert-menthe
+    );}
+
+.status--corail{background-color: var(--corail); }
+
+.card__taux--vert{ background-color: var(--vert-menthe
+    );}
+
+.card__taux--corail{background-color: var(--corail); }
