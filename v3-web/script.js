@@ -48,7 +48,7 @@ function afficherResultats(resultats) {
 
 
 async function rechercherMedicaments(nom) {
-    const reponse = await fetch(`http://localhost:8080/recherche?nom=${nom}`);
+    const reponse = await fetch(`https://med-rembourse.onrender.com/recherche?nom=${nom}`);
     const donnees = await reponse.json();
     return donnees;
 }
